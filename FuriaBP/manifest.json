@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Bastón de la Furia (BP)",
+    "description": "Golpea a un mob con el Bastón de la Furia y atacará a cualquier ser vivo.",
+    "uuid": "589f34c3-6f29-44b5-93af-ff66f449bebc",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "b19a44f2-2552-47ec-bbf6-1265ea16b45d",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "0952ffc5-f133-44ff-a449-abf93d4994f2",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    { "module_name": "@minecraft/server", "version": "1.11.0" },
+    { "uuid": "81f427c2-feb8-4bd6-9b8d-af1bfa60afd9", "version": [1, 0, 0] }
+  ]
+}
